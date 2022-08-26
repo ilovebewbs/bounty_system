@@ -1,0 +1,7 @@
+-- Your SQL goes here
+CREATE TABLE members(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    fullname VARCHAR(255) NOT NULL,
+    city VARCHAR(255) NOT NULL,
+    phone BIGINT NOT NULL
+);
